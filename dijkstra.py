@@ -10,7 +10,7 @@ from PullNode import PullNode,Remove_Node
 iFile='D:\\Assg1\\dijkstraData\\dijkstraData.txt'
 
 def main():
-    print 'BYE'
+    print 'Main Loop'
     data=LoadData(iFile)
     #ShowData(data)
     processedNodes,remainingNodes,spDistance=Initialize(len(data))
